@@ -1,0 +1,10 @@
+__author__ = 'DIOUF ABBAS'
+
+from django.conf.urls import patterns, url
+
+
+urlpatterns = patterns('blog.views',
+
+    url(r'^accueil$', 'home'),
+
+)
